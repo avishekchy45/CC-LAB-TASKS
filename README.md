@@ -1,16 +1,16 @@
-# -LAB-TASKS
+# CC-LAB-TASKS
 
-##### This repository is for "" lab tasks and assignments
+##### This repository is for "Compiler Construction Laboratory" lab tasks and assignments
 ---
 
-**Course Code** : (V3)
+**Course Code** : CSE 454(V3)
 
-**Course Title** :  Laboratory
+**Course Title** :  Compiler Construction Laboratory
 
-**Course Teacher** : 
+**Course Teacher** : Tanni Dhoom
 
-**Session** : 
+**Session** : Spring 2022
 
-**Course Description** : 
+**Course Description** : This course introduces students to compilers and language translation. It covers all the aspects of lexical, syntactic and semantic analysis including language theory and implementation. Use of finite state machines, regular expressions, top-down, bottom-up parsing techniques. Code generation and optimization, subroutine calls, symbol table management, LL and LR parser generators all are discussed.
 
 ---
