@@ -1,6 +1,26 @@
-break	1
-for	1
-if	1
-int	2
-return	1
-Total Keywords: 6
+<stdio.h>		Header
+int				Keyword
+main			Built in Function
+int				Keyword
+i				Identifier
+j_5				Identifier
+k				Identifier
+for				Keyword
+i				Identifier
+=				Operator
+k				Identifier
+=				Operator
+i				Identifier
+<=				Operator
+if				Keyword
+i				Identifier
+%				Operator
+==				Operator
+printf			Built in Function
+k				Identifier
+
+Total Identifiers:  8
+No. of Occurrences: 
+i					4
+j_5					1
+k					3
