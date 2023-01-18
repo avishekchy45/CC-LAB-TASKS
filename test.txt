@@ -1,0 +1,57 @@
+2
+A -> avi|avishek
+S -> abcd|sdf
+
+iEtS|iEtSeS
+
+2
+S->iEtS|iEtSeS|a
+E->b
+
+S->iEtS|iEtSeS|a
+E->b
+
+S=iEtS|iEtSeS|iEtSf
+E=b
+
+S=iab|iabC
+E=b
+
+S->iEtSS'|a
+S'->eS|∈
+E->b
+
+A->Ab|Ac|ABd|d
+A->b|c|Bd|d
+
+A->dA'
+A'->bA'
+A'->cA'
+A'->BdA'
+A'->(e)
+
+First(R)= { +, #, }
+First(T)= { (, i, }
+First(Y)= { *, #, }
+First(E)= { (, i, }
+First(F)= { (, i, }
+Follow(E) = { $, ),  }
+Follow(R) = { $, ),  }
+Follow(T) = { +, $, ),  }
+Follow(Y) = { +, $, ),  }
+Follow(F) = { *, +, $, ),  }
+
+
+First(S) = { a }
+First(B) = { c }
+First(C) = { b , ∈ }
+First(D) = { g , f , ∈ }
+First(E) = { g , ∈ }
+First(F) = { f , ∈ }
+ 
+Follow(S) = { $ }
+Follow(B) = { g , f , h }
+Follow(C) = { g , f , h }
+Follow(D) = { h }
+Follow(E) = { f , h }
+Follow(F) = { h }

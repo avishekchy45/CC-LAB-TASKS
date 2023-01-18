@@ -1,3 +1,29 @@
-2
-A -> avi|avishek
-S -> abcd|sdf
+9
+S=aBDh 
+B=cC 
+C=bC 
+C=# 
+D=EF 
+E=g 
+E=# 
+F=f 
+F=#
+
+S=ACB 
+S=CbB 
+S=Ba
+A=da 
+A=BC
+B=g 
+B=#
+C=h 
+C=#
+
+E=TR
+R=+TR
+R=#
+T=FY
+Y=*FY 
+Y=#
+F=(E) 
+F=i

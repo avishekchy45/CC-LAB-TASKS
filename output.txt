@@ -1,7 +1,24 @@
-Enter No. of Productions: 2
-Production 1: A -> avi|avishek
-Production 2: S -> abcd|sdf
-Grammar after performing left factoring:
-A -> aviA'
-A' -> shek|(e)
-Left Factoring can't be performed on Production 2
+Enter No. of Productions: 9
+Production 1: S=aBDh
+Production 2: B=cC
+Production 3: C=bC
+Production 4: C=#
+Production 5: D=EF
+Production 6: E=g
+Production 7: E=#
+Production 8: F=f
+Production 9: F=#
+
+FIRST(S) = { a }
+FIRST(B) = { c }
+FIRST(C) = { b, î }
+FIRST(D) = { g, f, î }
+FIRST(E) = { g, î }
+FIRST(F) = { f, î }
+
+FOLLOW(S) = { $ }
+FOLLOW(B) = { g, f, h }
+FOLLOW(C) = { g, f, h }
+FOLLOW(D) = { h }
+FOLLOW(E) = { f, h }
+FOLLOW(F) = { h }
