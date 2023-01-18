@@ -1,10 +1,7 @@
-Enter Productions of the Grammar: A->Ab|Ac|ABd|d
-Grammar after removing left recursion:
-A->dA'
-A'->bA'
-A'->cA'
-A'->BdA'
-A'->(e)
-
-Enter Productions of the Grammar: A->b|c|Bd|d
-Given grammar has no productions containing left recursion.
+Enter No. of Productions: 2
+Production 1: A -> avi|avishek
+Production 2: S -> abcd|sdf
+Grammar after performing left factoring:
+A -> aviA'
+A' -> shek|(e)
+Left Factoring can't be performed on Production 2
