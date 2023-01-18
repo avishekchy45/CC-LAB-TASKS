@@ -1,0 +1,15 @@
+1. Expression: a*b*c+
+Input: aac
+Matched
+2. Expression: [\\[a-z,_]+[\\[0-9]*
+Input: avishekchy45
+Matched
+3. Expression: [\\[a-z,_]+[\\[0-9]*
+Input: avishekchy_45
+Matched
+4. Expression: [\\[a-z,_]+[\\[0-9]*
+Input: _45
+Matched
+5. Expression: [\\[a-z,_]+[\\[0-9]*
+Input: 45
+Invalid
