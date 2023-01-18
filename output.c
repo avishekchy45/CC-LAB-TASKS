@@ -7,6 +7,7 @@ int main()
     for (i = 0, k = 0; i <= 10; i++, k++)
     {
         if (i % 5 == 0)
-            printf("%d Avishek Chowdhury\n", k);
+            break;
     }
+    return 0;
 }
